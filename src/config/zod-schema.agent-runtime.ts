@@ -271,7 +271,6 @@ export const ToolsWebFetchSchema = z
 
 export const ToolsWebSchema = z
   .object({
-    urlAllowlist: z.array(z.string()).optional(),
     search: ToolsWebSearchSchema,
     fetch: ToolsWebFetchSchema,
   })
